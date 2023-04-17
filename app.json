@@ -4,10 +4,10 @@
     "slug": "RYApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/deco-window.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/bg-body.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/deco-window.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rrrrky.RYApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/deco-window.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e6738bc7-4207-4553-9e9d-555d4a7f8b75"
+      }
     }
   }
 }
